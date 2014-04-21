@@ -1,0 +1,47 @@
+{
+  "name": "passport-bluemix",
+  "version": "0.0.1",
+  "description": "BlueMix OAuth 2.0 authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "oauth",
+    "oauth2",
+    "ibm",
+    "bluemix",
+    "cloud foundry"
+  ],
+  "author": "minh.hoang <hieuminh.hoang@gmail.com> (http://blog.minhhoang.de/)",
+  "repository": {
+    "type": "jazzhub",
+    "url": "git://jazzhub.com/popeye17/passport-bluemix.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x",
+    "oauth": "0.9.x",
+    "uid2": "0.0.x",
+    "request": "*"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
