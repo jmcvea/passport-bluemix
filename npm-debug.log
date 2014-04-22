@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.6
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/hoang/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+13 verbose folder .
+14 info prepublish passport-bluemix@0.0.1-b
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/hoang/.npm/1f1177db-tar.lock
+17 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+18 verbose lock tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz /Users/hoang/.npm/33d50f43-33721-0-7285250527784228-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+22 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+23 verbose tar unpack /var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+24 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+25 verbose lock tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package /Users/hoang/.npm/7acac6a3-33721-0-7285250527784228-package.lock
+26 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+27 verbose lock tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz /Users/hoang/.npm/33d50f43-33721-0-7285250527784228-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry .jshintrc
+32 silly gunzTarPerm extractEntry .project
+33 silly gunzTarPerm extractEntry .settings/com.eclipsesource.jshint.ui.prefs
+34 silly gunzTarPerm extractEntry .settings/org.eclipse.wst.jsdt.core.prefs
+35 silly gunzTarPerm extractEntry lib/index.js
+36 silly gunzTarPerm extractEntry lib/profile.js
+37 silly gunzTarPerm extractEntry lib/strategy.js
+38 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+39 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+40 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+41 silly lockFile 33d50f43-33721-0-7285250527784228-tmp-tgz tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/tmp.tgz
+42 verbose tar pack [ '/Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz',
+42 verbose tar pack   '/var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package' ]
+43 verbose tarball /Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+44 verbose folder /var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+45 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+46 verbose lock tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package /Users/hoang/.npm/7acac6a3-33721-0-7285250527784228-package.lock
+47 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+48 verbose lock tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz /Users/hoang/.npm/6d04ccff-port-bluemix-0-0-1-b-package-tgz.lock
+49 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+50 silly lockFile 7acac6a3-33721-0-7285250527784228-package tar:///var/folders/z6/vfhjx0gx4tzgp4x41k1s8tc00000gn/T/npm-10860-Z2q3sHIi/1398160133721-0.7285250527784228/package
+51 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+52 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+53 silly lockFile 0aa210bf-passport-bluemix-0-0-1-b-package /Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+54 verbose lock /Users/hoang/.npm/passport-bluemix/0.0.1-b/package /Users/hoang/.npm/0aa210bf-passport-bluemix-0-0-1-b-package.lock
+55 silly lockFile 0aa210bf-passport-bluemix-0-0-1-b-package /Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+56 silly lockFile 0aa210bf-passport-bluemix-0-0-1-b-package /Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+57 verbose tar unpack /Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+58 silly lockFile 759abc62-passport-bluemix-0-0-1-b-package tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+59 verbose lock tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package /Users/hoang/.npm/759abc62-passport-bluemix-0-0-1-b-package.lock
+60 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+61 verbose lock tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz /Users/hoang/.npm/6d04ccff-port-bluemix-0-0-1-b-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry .jshintrc
+66 silly gunzTarPerm extractEntry .project
+67 silly gunzTarPerm extractEntry .settings/com.eclipsesource.jshint.ui.prefs
+68 silly gunzTarPerm extractEntry .settings/org.eclipse.wst.jsdt.core.prefs
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry lib/profile.js
+71 silly gunzTarPerm extractEntry lib/strategy.js
+72 silly lockFile 759abc62-passport-bluemix-0-0-1-b-package tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+73 silly lockFile 759abc62-passport-bluemix-0-0-1-b-package tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package
+74 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+75 silly lockFile 6d04ccff-port-bluemix-0-0-1-b-package-tgz tar:///Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz
+76 verbose chmod /Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz 644
+77 verbose chown /Users/hoang/.npm/passport-bluemix/0.0.1-b/package.tgz [ 501, 20 ]
+78 silly lockFile 3a52ce78- .
+79 silly lockFile 3a52ce78- .
+80 silly publish { name: 'passport-bluemix',
+80 silly publish   version: '0.0.1-b',
+80 silly publish   description: 'BlueMix OAuth 2.0 authentication strategy for Passport.',
+80 silly publish   keywords:
+80 silly publish    [ 'passport',
+80 silly publish      'auth',
+80 silly publish      'authn',
+80 silly publish      'authentication',
+80 silly publish      'authz',
+80 silly publish      'authorization',
+80 silly publish      'oauth',
+80 silly publish      'oauth2',
+80 silly publish      'ibm',
+80 silly publish      'bluemix',
+80 silly publish      'cloud foundry' ],
+80 silly publish   author:
+80 silly publish    { name: 'minh.hoang',
+80 silly publish      email: 'hieuminh.hoang@gmail.com',
+80 silly publish      url: 'http://blog.minhhoang.de/' },
+80 silly publish   repository:
+80 silly publish    { type: 'jazzhub',
+80 silly publish      url: 'git://jazzhub.com/popeye17/passport-bluemix.git' },
+80 silly publish   licenses: [ { type: 'MIT', url: 'http://www.opensource.org/licenses/MIT' } ],
+80 silly publish   main: './lib',
+80 silly publish   dependencies: { 'passport-oauth2': '1.x.x', 'passport-strategy': '*' },
+80 silly publish   engines: { node: '>= 0.4.0' },
+80 silly publish   readme: '## passport-ibm\n\n\n\n## Usage\n\nvar passport = require(\'passport\')\n  , OAuth2Strategy = require(\'passport-oauth\').BlueMixOAuth2Strategy;\n\npassport.use(\'provider\', new BlueMixOAuth2Strategy({\n    authorizationURL: \'https://www.provider.com/oauth2/authorize\',\n    tokenURL: \'https://www.provider.com/oauth2/token\',\n    clientID: \'123-456-789\',\n    clientSecret: \'shhh-its-a-secret\'\n    callbackURL: \'https://www.example.com/auth/provider/callback\',\n    requestedAuthnPolicy: \'http://www.ibm.com/idaas/authnpolicy/basic\'\n  },\n  function(accessToken, refreshToken, profile, done) {\n    User.findOrCreate(..., function(err, user) {\n      done(err, user);\n    });\n  }\n));\n\n\nProtect your Routes:\napp.get(\'/auth/provider\', passport.authenticate(\'provider\'));\n\n// The OAuth 2.0 provider has redirected the user back to the application.\n// Finish the authentication process by attempting to obtain an access\n// token.  If authorization was granted, the user will be logged in.\n// Otherwise, authentication has failed.\napp.get(\'/auth/provider/callback\', \n  passport.authenticate(\'provider\', { successRedirect: \'/\',\n                                      failureRedirect: \'/login\' }));\n                                      \nSpecify your scope: (default = profile)\n\n\n## Developing\n\n\n## Test (to come)\n\n\n\n\n',
+80 silly publish   readmeFilename: 'README.md',
+80 silly publish   _id: 'passport-bluemix@0.0.1-b',
+80 silly publish   dist: { shasum: '5860076ba6a3d690f7abde9de0a56ccc4dd9088c' },
+80 silly publish   _from: '.' }
+81 verbose url raw passport-bluemix
+82 verbose url resolving [ 'https://registry.npmjs.org/', './passport-bluemix' ]
+83 verbose url resolved https://registry.npmjs.org/passport-bluemix
+84 info trying registry request attempt 1 at 11:48:53
+85 http PUT https://registry.npmjs.org/passport-bluemix
+86 http 403 https://registry.npmjs.org/passport-bluemix
+87 error publish Failed PUT 403
+88 error Error: forbidden cannot modify pre-existing version: 0.0.1-b
+88 error old={"name":"passport-bluemix","version":"0.0.1-b","description":"BlueMix OAuth 2.0 authentication strategy for Passport.","keywords":["passport","auth","authn","authentication","authz","authorization","oauth","oauth2","ibm","bluemix","cloud foundry"],"author":{"name":"minh.hoang","email":"hieuminh.hoang@gmail.com","url":"http://blog.minhhoang.de/"},"repository":{"type":"jazzhub","url":"git://jazzhub.com/popeye17/passport-bluemix.git"},"licenses":[{"type":"MIT","url":"http://www.opensource.org/licenses/MIT"}],"main":"./lib","dependencies":{"passport-oauth2":"1.x.x","passport-strategy":"*"},"engines":{"node":">= 0.4.0"},"_id":"passport-bluemix@0.0.1-b","dist":{"shasum":"5860076ba6a3d690f7abde9de0a56ccc4dd9088c","tarball":"http://registry.npmjs.org/passport-bluemix/-/passport-bluemix-0.0.1-b.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"minhhoang","email":"hieuminh.hoang@gmail.com"},"maintainers":[{"name":"popeye17","email":"hieuminh.hoang@gmail.com"},{"name":"minhhoang","email":"hieuminh.hoang@gmail.com"}]}
+88 error new={"name":"passport-bluemix","version":"0.0.1-b","description":"BlueMix OAuth 2.0 authentication strategy for Passport.","keywords":["passport","auth","authn","authentication","authz","authorization","oauth","oauth2","ibm","bluemix","cloud foundry"],"author":{"name":"minh.hoang","email":"hieuminh.hoang@gmail.com","url":"http://blog.minhhoang.de/"},"repository":{"type":"jazzhub","url":"git://jazzhub.com/popeye17/passport-bluemix.git"},"licenses":[{"type":"MIT","url":"http://www.opensource.org/licenses/MIT"}],"main":"./lib","dependencies":{"passport-oauth2":"1.x.x","passport-strategy":"*"},"engines":{"node":">= 0.4.0"},"readme":"## passport-ibm\u000a\u000a\u000a\u000a## Usage\u000a\u000avar passport = require('passport')\u000a  , OAuth2Strategy = require('passport-oauth').BlueMixOAuth2Strategy;\u000a\u000apassport.use('provider', new BlueMixOAuth2Strategy({\u000a    authorizationURL: 'https://www.provider.com/oauth2/authorize',\u000a    tokenURL: 'https://www.provider.com/oauth2/token',\u000a    clientID: '123-456-789',\u000a    clientSecret: 'shhh-its-a-secret'\u000a    callbackURL: 'https://www.example.com/auth/provider/callback',\u000a    requestedAuthnPolicy: 'http://www.ibm.com/idaas/authnpolicy/basic'\u000a  },\u000a  function(accessToken, refreshToken, profile, done) {\u000a    User.findOrCreate(..., function(err, user) {\u000a      done(err, user);\u000a    });\u000a  }\u000a));\u000a\u000a\u000aProtect your Routes:\u000aapp.get('/auth/provider', passport.authenticate('provider'));\u000a\u000a// The OAuth 2.0 provider has redirected the user back to the application.\u000a// Finish the authentication process by attempting to obtain an access\u000a// token.  If authorization was granted, the user will be logged in.\u000a// Otherwise, authentication has failed.\u000aapp.get('/auth/provider/callback', \u000a  passport.authenticate('provider', { successRedirect: '/',\u000a                                      failureRedirect: '/login' }));\u000a                                      \u000aSpecify your scope: (default = profile)\u000a\u000a\u000a## Developing\u000a\u000a\u000a## Test (to come)\u000a\u000a\u000a\u000a\u000a","readmeFilename":"README.md","_id":"passport-bluemix@0.0.1-b","dist":{"shasum":"5860076ba6a3d690f7abde9de0a56ccc4dd9088c","tarball":"http://registry.npmjs.org/passport-bluemix/-/passport-bluemix-0.0.1-b.tgz"},"_from":".","_npmVersion":"1.4.6","_npmUser":{"name":"minhhoang","email":"hieuminh.hoang@gmail.com"},"maintainers":[{"name":"minhhoang","email":"hieuminh.hoang@gmail.com"}]}: passport-bluemix
+88 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+88 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:192:65)
+88 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+88 error     at Request.EventEmitter.emit (events.js:98:17)
+88 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+88 error     at Request.EventEmitter.emit (events.js:117:20)
+88 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+88 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+88 error     at _stream_readable.js:920:16
+88 error     at process._tickCallback (node.js:415:13)
+89 error If you need help, you may report this *entire* log,
+89 error including the npm and node versions, at:
+89 error     <http://github.com/npm/npm/issues>
+90 error System Darwin 13.1.0
+91 error command "node" "/usr/local/bin/npm" "publish"
+92 error cwd /Users/hoang/workspace/nodejs/passport-bluemix
+93 error node -v v0.10.26
+94 error npm -v 1.4.6
+95 verbose exit [ 1, true ]

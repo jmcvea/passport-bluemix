@@ -1,0 +1,190 @@
+
+[1;38mVERSION:[0m
+6.1.0-homebrew
+
+
+[1;38mVERSION:[0m
+6.1.0-homebrew
+
+
+[1;38mREQUEST:[0m [2014-04-22T12:01:08+02:00]
+GET /v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/apps?q=name%3Arobiruby&inline-relations-depth=1 HTTP/1.1
+Host: api.stage0.ng.bluemix.net
+Accept: application/json
+Authorization: [PRIVATE DATA HIDDEN]
+Content-Type: application/json
+User-Agent: go-cli 6.1.0-homebrew / darwin
+
+
+
+[1;38mRESPONSE:[0m [2014-04-22T12:01:09+02:00]
+HTTP/1.1 200 OK
+Content-Length: 4048
+Content-Type: application/json;charset=utf-8
+Date: Tue, 22 Apr 2014 10:01:09 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: 060fe93e6782e5da24e5bda7b6967f69::cf099c14-72a9-40a7-91d6-d4a46ae50ece
+
+{
+  "total_results": 1,
+  "total_pages": 1,
+  "prev_url": null,
+  "next_url": null,
+  "resources": [
+    {
+      "metadata": {
+        "guid": "edf94102-b19b-42e5-b476-4f8876585996",
+        "url": "/v2/apps/edf94102-b19b-42e5-b476-4f8876585996",
+        "created_at": "2014-04-17T14:00:27+00:00",
+        "updated_at": "2014-04-17T14:01:23+00:00"
+      },
+      "entity": {
+        "name": "robiruby",
+        "production": false,
+        "space_guid": "db8af8a0-dc75-4eba-a307-7f81f62b8825",
+        "stack_guid": "ea6c1e15-dbc5-45a1-b084-cd366d216cc5",
+        "buildpack": null,
+        "detected_buildpack": "Ruby/Rails",
+        "detected_buildpack_guid": "3daa3b95-7714-4b44-ae19-29aae4ca0786",
+        "environment_json": {
+
+        },
+        "memory": 256,
+        "instances": 1,
+        "disk_quota": 1024,
+        "state": "STARTED",
+        "version": "71349d26-833c-4e13-9e49-4b183e6189d7",
+        "command": null,
+        "console": false,
+        "debug": null,
+        "staging_task_id": "76cc12f80c8540079c4cffcf4c5ea18a",
+        "package_state": "STAGED",
+        "health_check_timeout": null,
+        "space_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825",
+        "space": {
+          "metadata": {
+            "guid": "db8af8a0-dc75-4eba-a307-7f81f62b8825",
+            "url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825",
+            "created_at": "2014-02-15T01:47:50+00:00",
+            "updated_at": null
+          },
+          "entity": {
+            "name": "dev",
+            "organization_guid": "df4222f9-19fa-4903-a94b-70e37051457e",
+            "organization_url": "/v2/organizations/df4222f9-19fa-4903-a94b-70e37051457e",
+            "developers_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/developers",
+            "managers_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/managers",
+            "auditors_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/auditors",
+            "apps_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/apps",
+            "routes_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/routes",
+            "domains_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/domains",
+            "service_instances_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/service_instances",
+            "app_events_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/app_events",
+            "events_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825/events"
+          }
+        },
+        "stack_url": "/v2/stacks/ea6c1e15-dbc5-45a1-b084-cd366d216cc5",
+        "stack": {
+          "metadata": {
+            "guid": "ea6c1e15-dbc5-45a1-b084-cd366d216cc5",
+            "url": "/v2/stacks/ea6c1e15-dbc5-45a1-b084-cd366d216cc5",
+            "created_at": "2014-01-20T22:46:33+00:00",
+            "updated_at": null
+          },
+          "entity": {
+            "name": "lucid64",
+            "description": "Ubuntu 10.04 on x86-64"
+          }
+        },
+        "service_bindings_url": "/v2/apps/edf94102-b19b-42e5-b476-4f8876585996/service_bindings",
+        "service_bindings": [
+
+        ],
+        "routes_url": "/v2/apps/edf94102-b19b-42e5-b476-4f8876585996/routes",
+        "routes": [
+          {
+            "metadata": {
+              "guid": "f626dbd5-5de3-4e68-8e4e-4e1164360a35",
+              "url": "/v2/routes/f626dbd5-5de3-4e68-8e4e-4e1164360a35",
+              "created_at": "2014-04-17T14:00:27+00:00",
+              "updated_at": null
+            },
+            "entity": {
+              "host": "robiruby",
+              "domain_guid": "a227e3de-164a-405e-9936-d77310df5b15",
+              "space_guid": "db8af8a0-dc75-4eba-a307-7f81f62b8825",
+              "domain_url": "/v2/domains/a227e3de-164a-405e-9936-d77310df5b15",
+              "space_url": "/v2/spaces/db8af8a0-dc75-4eba-a307-7f81f62b8825",
+              "apps_url": "/v2/routes/f626dbd5-5de3-4e68-8e4e-4e1164360a35/apps"
+            }
+          }
+        ],
+        "events_url": "/v2/apps/edf94102-b19b-42e5-b476-4f8876585996/events"
+      }
+    }
+  ]
+}
+
+[1;38mREQUEST:[0m [2014-04-22T12:01:09+02:00]
+GET /v2/apps/edf94102-b19b-42e5-b476-4f8876585996/summary HTTP/1.1
+Host: api.stage0.ng.bluemix.net
+Accept: application/json
+Authorization: [PRIVATE DATA HIDDEN]
+Content-Type: application/json
+User-Agent: go-cli 6.1.0-homebrew / darwin
+
+
+
+[1;38mRESPONSE:[0m [2014-04-22T12:01:10+02:00]
+HTTP/1.1 200 OK
+Content-Length: 990
+Content-Type: application/json;charset=utf-8
+Date: Tue, 22 Apr 2014 10:01:10 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: 12fe63a3b6134da83ccc38d5235e400f::a185d036-fc91-473e-93a1-26e63fb04765
+
+{"guid":"edf94102-b19b-42e5-b476-4f8876585996","name":"robiruby","routes":[{"guid":"f626dbd5-5de3-4e68-8e4e-4e1164360a35","host":"robiruby","domain":{"guid":"a227e3de-164a-405e-9936-d77310df5b15","name":"stage0.ng.bluemix.net"}}],"running_instances":1,"services":[],"available_domains":[{"guid":"8b5e2eaf-1019-4f67-ad7d-aac04bc0507c","name":"stage0.ng.w3.bluemix.net"},{"guid":"a227e3de-164a-405e-9936-d77310df5b15","name":"stage0.ng.bluemix.net"}],"name":"robiruby","production":false,"space_guid":"db8af8a0-dc75-4eba-a307-7f81f62b8825","stack_guid":"ea6c1e15-dbc5-45a1-b084-cd366d216cc5","buildpack":null,"detected_buildpack":"Ruby/Rails","detected_buildpack_guid":"3daa3b95-7714-4b44-ae19-29aae4ca0786","environment_json":{},"memory":256,"instances":1,"disk_quota":1024,"state":"STARTED","version":"71349d26-833c-4e13-9e49-4b183e6189d7","command":null,"console":false,"debug":null,"staging_task_id":"76cc12f80c8540079c4cffcf4c5ea18a","package_state":"STAGED","health_check_timeout":null}
+
+[1;38mREQUEST:[0m [2014-04-22T12:01:10+02:00]
+GET /v2/apps/edf94102-b19b-42e5-b476-4f8876585996/instances HTTP/1.1
+Host: api.stage0.ng.bluemix.net
+Accept: application/json
+Authorization: [PRIVATE DATA HIDDEN]
+Content-Type: application/json
+User-Agent: go-cli 6.1.0-homebrew / darwin
+
+
+
+[1;38mRESPONSE:[0m [2014-04-22T12:01:11+02:00]
+HTTP/1.1 200 OK
+Content-Length: 124
+Content-Type: application/json;charset=utf-8
+Date: Tue, 22 Apr 2014 10:01:11 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: c7d350580a25a903fc0c14c6d8e7b3c9::c6f60777-e6b0-4611-ada7-c6c52e6410e9
+
+{"0":{"state":"RUNNING","since":1397743287.0565526,"debug_ip":null,"debug_port":null,"console_ip":null,"console_port":null}}
+
+[1;38mREQUEST:[0m [2014-04-22T12:01:11+02:00]
+GET /v2/apps/edf94102-b19b-42e5-b476-4f8876585996/stats HTTP/1.1
+Host: api.stage0.ng.bluemix.net
+Accept: application/json
+Authorization: [PRIVATE DATA HIDDEN]
+Content-Type: application/json
+User-Agent: go-cli 6.1.0-homebrew / darwin
+
+
+
+[1;38mRESPONSE:[0m [2014-04-22T12:01:13+02:00]
+HTTP/1.1 200 OK
+Content-Length: 319
+Content-Type: application/json;charset=utf-8
+Date: Tue, 22 Apr 2014 10:01:12 GMT
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Vcap-Request-Id: f714f31c3502dca39e495b0e28d52e0e::9619cf73-de72-4664-8da0-0d3de13e3067
+
+{"0":{"state":"RUNNING","stats":{"name":"robiruby","uris":["robiruby.stage0.ng.bluemix.net"],"host":"198.23.104.238","port":61248,"uptime":417589,"mem_quota":268435456,"disk_quota":1073741824,"fds_quota":16384,"usage":{"time":"2014-04-22 10:01:12 +0000","cpu":0.00013200864463029522,"mem":149426176,"disk":439824384}}}}
