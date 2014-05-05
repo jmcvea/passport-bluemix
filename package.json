@@ -1,6 +1,6 @@
 {
   "name": "passport-bluemix",
-  "version": "0.0.2b",
+  "version": "0.0.3b",
   "description": "BlueMix OAuth 2.0 authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -16,9 +16,9 @@
     "cloud foundry"
   ],
   "author": "minh.hoang <hieuminh.hoang@gmail.com> (http://blog.minhhoang.de/)",
-  "repository": {
+  "repository":{
     "type": "jazzhub",
-    "url": "https://hub.jazz.net/git/minhhoang/passport-bluemix"
+    "url": "https://hub.jazz.net/git/minhhoang/passport-bluemix"  
   },
   "licenses": [
     {
@@ -31,6 +31,11 @@
     "passport-oauth2": "1.x.x",
     "passport-strategy": "*"
   },
+  "devDependencies": {
+    "mocha": "*",
+    "chai" : "*",
+    "chai-passport-strategy": "*"
+    },
   "engines": {
     "node": ">= 0.4.0"
   }
