@@ -1,9 +1,11 @@
 var chai = require('chai')
 	,	BlueMixOauth2Stategy = require('../lib/strategy');
 
+var expect = chai.expect;
 
 describe('BlueMixOauth2Stategy', function() {
 	var strategy = new BlueMixOAuth2Strategy({
+		
       //TODO - test new BlueMix strategy
     });
 });

@@ -30,7 +30,7 @@ You can also write anything to the passport session, for example `user`.
 		scope: 'profile',
 		grant_type: 'authorization_code',
 		clientSecret : 'your_app_client_secret',
-		callbackURL : 'http://localhost:3000/auth/ibm/callback',
+		callbackURL : 'your_callback_url',
 		profileURL: 'https://idaas.ng.bluemix.net/idaas/resources/profile.jsp'
 	}, function(accessToken, refreshToken, profile, done) {
 		... //find or create new user
@@ -52,3 +52,13 @@ application:
 			// Successful authentication, redirect home.
         	res.redirect('/');
 	});
+	
+## Credits
+
+  - [Minh Hoang](https://github.com/m1nhhoang)
+
+## License
+
+[The MIT License](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2014 Minh Hoang <[http://blog.minhhoang.de/](http://blog.minhhoang.de/)>
